@@ -179,27 +179,27 @@ document.getElementById("cake").onclick = () => {
 
 const photos = [
 
-"photos/photo1.jpg",
-"photos/photo2.jpg",
-"photos/photo3.jpg",
-"photos/photo4.jpg",
-"photos/photo5.jpg",
-"photos/photo6.jpg",
-"photos/photo7.jpg",
-"photos/photo8.jpg",
-"photos/photo9.jpg",
-"photos/photo10.jpg",
-"photos/photo11.jpg",
-"photos/photo12.jpg",
-"photos/photo13.jpg",
-"photos/photo14.jpg",
-"photos/photo15.jpg",
-"photos/photo16.jpg",
-"photos/photo17.jpg",
-"photos/photo18.jpg",
-"photos/photo19.jpg",
-"photos/photo20.jpg",
-"photos/photo21.jpg"
+"photo1.jpg",
+"photo2.jpg",
+"photo3.jpg",
+"photo4.jpg",
+"photo5.jpg",
+"photo6.jpg",
+"photo7.jpg",
+"photo8.jpg",
+"photo9.jpg",
+"photo10.jpg",
+"photo11.jpg",
+"photo12.jpg",
+"photo13.jpg",
+"photo14.jpg",
+"photo15.jpg",
+"photo16.jpg",
+"photo17.jpg",
+"photo18.jpg",
+"photo19.jpg",
+"photo20.jpg",
+"photo21.jpg"
 
 ];
 
