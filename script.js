@@ -205,35 +205,28 @@ const photos = [
 let photoIndex = 0;
 
 function startSlideshow(){
-
-const img = document.getElementById("slideImage");
-
-img.src = photos[0];
-
-const slide = setInterval(()=>{
-
-photoIndex++;
-
-if(photoIndex >= photos.length){
-
-clearInterval(slide);
-
-setTimeout(()=>{
-
-showPage("letterPage");
-
-typeLetter();
-
-},1000);
-
-return;
-
-}
-
-img.src = photos[photoIndex];
-
-},2500);
-
+    const img = document.getElementById("slideImage");
+    
+    // Pehli photo turant dikhane ke liye
+    img.src = photos[0]; 
+    
+    const slide = setInterval(()=>{
+        photoIndex++;
+        
+        // Agar saari photos khatam ho jayein, toh loop rokein aur letter page par jayein
+        if(photoIndex >= photos.length){
+            clearInterval(slide);
+            setTimeout(()=>{
+                showPage("letterPage");
+                typeLetter();
+            }, 1000);
+            return;
+        }
+        
+        // Nayi photo ka source change karne se pehle check karein
+        img.src = photos[photoIndex];
+        
+    }, 2500);
 }
 
 // ======================================
