@@ -230,7 +230,7 @@ function startSlideshow(){
 
                 showNext();
 
-            },2500);
+            },1500);
 
         };
 
