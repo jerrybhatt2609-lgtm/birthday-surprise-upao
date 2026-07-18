@@ -205,7 +205,6 @@ const photos = [
 let photoIndex = 0;
 
 function startSlideshow(){
-function startSlideshow(){
 
     const img = document.getElementById("slideImage");
 
